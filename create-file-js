@@ -1,0 +1,3 @@
+const fs = require("node:fs");
+
+fs.writeFileSync("nuevo_archivo.txt", "contenido wu", { encoding: "utf8" });
